@@ -1,0 +1,56 @@
+Model: Exhaust Manifold.SLDPRT
+Project name: Exhaust Manifold CFD
+Config name: Default
+Project path: D:\Mobile\Pdf\3D Model\210180104009_Bhaskar-Bhatt\SolidWorks\Exhaust Manifold Simulation\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 206174
+    Fluid cells: 206174
+    Solid cells: 223123
+    Fluid cells containing solids: 118501
+
+
+Geometry preparation finished: 11:07:48
+Geometry preparation time: 00:00:16
+Solver CPU time: 00:12:35
+Iterations: 154
+Travels: 1.30341
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 11:19:57
+CPU time per last iteration: 00:00:05
+CPU time left: 00:00:31
+Iterations per 1 travel: 119
+
+Goals
+    Name                | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    Pressure max        | pressure and stress |       102052.61 |     100.0 |           59.99 |            8.63 | On
+    Velocity max        | speed and velocity  |           49.70 |     100.0 |            0.55 |            0.24 | On
+    Average temperature | temperature         |          514.63 |     100.0 |            6.63 |            6.59 | On
+    Volume Flow Rate    | volumetric flow     |            0.00 |     100.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: Internal
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2024  x64 / 6234 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2024 SP1.0
+    Computer name: MSI
+    User name: deepa
+    Operating system: Windows 11 (or higher) (Version 10.0.26100)
+    Processors: AMD Ryzen 5 5500U with Radeon Graphics         
+    Number of cores: 12
+    Memory: 1909 MB / 7542 MB
+

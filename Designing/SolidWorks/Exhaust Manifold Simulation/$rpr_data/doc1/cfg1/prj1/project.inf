@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Exhaust Manifold CFD</name>
+	<uuid>c67b9dfc-ecf1-4d84-b90c-83faf012a14d</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>726fa635-2db3-4ac3-9bf8-058d35d219aa</geom_db_uuid>
+	<gdb_light_uuid>f7d9d550-c167-42d3-9baa-c12e8bf84158</gdb_light_uuid>
+	<model_geom_uuid>72e436ff-fe64-4b70-83cb-92b20fb57694</model_geom_uuid>
+	<template_id/>
+</project>

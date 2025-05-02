@@ -1,0 +1,16 @@
+[StartTime]
+I Beam Analysis-I Beam.MFC=6s
+[SolverState]
+I Beam Analysis-I Beam.MFC=2
+[MainFrame]
+I Beam Analysis-I Beam.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+I Beam Analysis-I Beam.MFC=No
+[SolverType]
+I Beam Analysis-I Beam.MFC=Linear Analysis
+[StudyType]
+I Beam Analysis-I Beam.MFC=0
+[StudyName]
+I Beam Analysis-I Beam.MFC=I Beam
+[Solver]
+I Beam Analysis-I Beam.MFC=Iterative

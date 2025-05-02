@@ -1,0 +1,9 @@
+2025-May-02 11:20:01
+Computer name:	MSI
+Number of cores used in calculation:	12
+Configuration name:	Default
+Project name:	Exhaust Manifold CFD
+
+Warnings on last iteration: 
+1. A vortex crosses the pressure opening :
+	Boundary Condition : Outlet ; Inlet flow/outlet flow=0.0295756
