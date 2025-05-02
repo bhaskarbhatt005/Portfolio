@@ -1,0 +1,8 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="SYS")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+Save(Overwrite=True)
+Open(FilePath="D:/3D Model/210180104009_Bhaskar-Bhatt/Ansys/Thermal Analysis of Cup/Thermal analysis of cup.wbpj")
