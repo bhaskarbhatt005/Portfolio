@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd7de15e5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Bhaskar Bhatt</h1>
+        <h3>And I'm a <br /><span class="auto-text"></span></h3>
+        <p>Solidworks | Catia | AutoCAD | Python | C++ | OpenCV</p>
+        <div class="social-media">
+          <a href="mailto:deepakbhatt.db05@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="https://www.instagram.com/bhaskar._.bhatt/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/bhaskar-bhatt-me"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="tel:9411705919"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="Resume.pdf" class="btn">Download Resume</a>
+      </div>
+      <div class="home-image">
+        <img src="home.jpg" alt="image" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="home.jpg" alt="image" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p style="text-align: justify">
+          Recent B.Tech graduate in Mechanical Engineering with hands-on
+          experience in CAD tools such as SolidWorks, ANSYS, and CATIA.
+          Demonstrated ability to integrate mechanical design with intelligent
+          systems, as shown by the development of an AI-controlled robotic arm
+          using OpenCV for gesture recognition and remote web-based control.
+          <span class="more-text" style="color: white;">
+            Presented research on "Design Process and Development of Automation
+          for Smart Buildings" at the CE2CT-2025 conference. Recognized for
+          leadership as Cultural Captain and active contributor to technical
+          clubs, reflecting strong communication and team management skills.
+          Eager to contribute to innovative mechanical and automation projects
+          that combine design thinking with practical engineering solutions.
+          </span>
+        </p>
+        <button class="read-more-btn" onclick="toggleText()">Read More</button>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Designing Softwares</span><br />Solidworks | Catia</li>
+            <li><span>Languages</span><br />Python | C++</li>
+            <li><span>Libraries</span><br />OpenCV | MediaPipe</li>
+            <li>
+              <span>Manufacturing</span><br />CNC Programming | 3D Printing
+            </li>
+            <li>
+              <span>Tools</span><br />Microsoft Excel | Microsoft Power BI
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>2020</span><br />Intermediate (Physics | Chemistry | Maths |
+              Computer Science) <br />Grade: 86.6%
+            </li>
+            <li><span>2021-25</span><br />B.Tech Mechanical Engineering</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="project-container">
+        <a href="Designing/Ansys/" target="_blank">
+          <div class="project-box">
+            <img
+              src="Images/2021-09-ansys-og.jpg"
+              alt=""
+            />
+            <div class="project-layer">
+              <h4>Ansys</h4>
+              <p>
+                Structural and thermal analysis simulations
+              </p>
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+          </div>
+        </a>
+        <a href="Designing/SolidWorks/">
+          <div class="project-box">
+            <img
+              src="Images/Soliworks.jpg"
+              alt=""
+            />
+            <div class="project-layer">
+              <h4>SolidWorks</h4>
+              <p>
+                3D mechanical modeling, simulations and assemblies
+              </p>
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+          </div>
+        </a>
+        <a href="Designing/AutoCAD/">
+          <div class="project-box">
+            <img
+              src="https://media.istockphoto.com/id/1190108791/photo/female-automotive-engineer-uses-digital-tablet-with-augmented-reality-for-car-design-analysis.jpg?s=612x612&w=0&k=20&c=QG3xamro3N4dZBaH-IaAS3WqFBeznKHh7LEe8M3jLAI="
+              alt=""
+            />
+            <div class="project-layer">
+              <h4>AutoCAD</h4>
+              <p>
+                2D drafting and technical schematics
+              </p>
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <input type="text" name="Name" placeholder="Your Name" required />
+        <input type="text" name="email" placeholder="Your Email" required />
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Bhaskar Bhatt</p>
+      </div>
+      <div class="footer-icontop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
