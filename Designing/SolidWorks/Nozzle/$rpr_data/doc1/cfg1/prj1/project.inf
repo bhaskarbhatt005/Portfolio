@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Nozzle</name>
+	<uuid>dd902d60-5dde-490c-acb5-cb1e7903aab3</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>a9137336-04e4-43e6-a107-694522dccf0f</geom_db_uuid>
+	<gdb_light_uuid>18cce39d-75bd-4f15-9e2f-f527ed1a6976</gdb_light_uuid>
+	<model_geom_uuid>63ef0d65-36ba-4ac3-b135-9adebef1dd2a</model_geom_uuid>
+	<template_id/>
+</project>

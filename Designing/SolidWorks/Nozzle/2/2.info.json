@@ -1,0 +1,55 @@
+{
+    "version": 0,
+    "model_name": "Nozzle.SLDPRT",
+    "project_name": "Nozzle",
+    "config_name": "Default",
+    "project_path": "D:\\Mobile\\Pdf\\3D Model\\210180104009_Bhaskar-Bhatt\\SolodWorks Files\\Nozzle\\2\\2.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 48321,
+        "cells_fluid": 48321,
+        "cells_solid": 31335,
+        "cells_fluid_containing_solid": 13193
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "10:58:49+0530",
+        "prepare_geometry_total_time": 5,
+        "cpu_time_solver_total": 61,
+        "iteration": 85,
+        "travel": 1.1668372735482653,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "10:59:43+0530",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 1,
+        "iterations_per_travel": 73
+    },
+    "goals": [],
+    "settings": {
+        "default_fluids": [
+            "Oxygen"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": true,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2024  x64 / 6234 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2024 SP1.0",
+        "computer_name": "MSI",
+        "user_name": "deepa",
+        "os": "Windows 11 (or higher) (Version 10.0.26100)",
+        "cpu": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "number_of_cores": 12,
+        "memory_avail": 1302,
+        "memory_total": 7542
+    }
+}

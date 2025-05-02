@@ -1,0 +1,7 @@
+2025-May-02 10:59:43
+Computer name:	MSI
+Number of cores used in calculation:	12
+Configuration name:	Default
+Project name:	Nozzle
+
+Warnings on last iteration: 
